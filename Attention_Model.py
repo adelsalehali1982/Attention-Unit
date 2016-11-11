@@ -97,4 +97,4 @@ sample=np.expand_dims(inputdata[0],axis=0)
 ##Merged_V=model5.predict([sample ,c_context])
 ##
 ##print Merged_V-W_context-W_Y
-
+##print Merged_V-W_context-W_Y
