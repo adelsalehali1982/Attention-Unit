@@ -1,5 +1,7 @@
 
 import numpy as np
+from keras.utils import np_utils
+from sklearn.preprocessing import LabelEncoder
 
 from keras.models import Model
 from keras.layers import Input,Dense, merge, RepeatVector, Permute
